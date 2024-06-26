@@ -1,24 +1,35 @@
 package templates
 
 templ IndexPage(name string) {
-<html>
-
-<head>
-  <title>Millemetri</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
-  <link rel="manifest" href="/static/site.webmanifest" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
-  <link rel="stylesheet" href="/static/style.css" />
-</head>
-
-<body class="bg-orange-50 flex items-center justify-center">
-  <div class="w-2/3 md:w-1/2 lg:w-1/3">
-    <img src="/static/millemetri-logo.svg" alt="Millemetri - La rivista di Cercemaggiore" />
-  </div>
-</body>
-
-</html>
+	<html>
+		<head>
+			<title>Millemetri</title>
+			<meta name="description" content="Storia, arte e cultura di Cercemaggiore"/>
+			<!-- Facebook Meta Tags -->
+			<meta property="og:url" content="https://millemetri.net/"/>
+			<meta property="og:type" content="website"/>
+			<meta property="og:title" content="Millemetri"/>
+			<meta property="og:description" content="Storia, arte e cultura di Cercemaggiore"/>
+			<meta property="og:image" content="https://millemetri.net/static/millemetri-og.jpg"/>
+			<!-- Twitter Meta Tags -->
+			<meta name="twitter:card" content="summary_large_image"/>
+			<meta property="twitter:domain" content="millemetri.net"/>
+			<meta property="twitter:url" content="https://millemetri.net/"/>
+			<meta name="twitter:title" content="Millemetri"/>
+			<meta name="twitter:description" content="Storia, arte e cultura di Cercemaggiore"/>
+			<meta name="twitter:image" content="https://millemetri.net/static/millemetri-og.jpg"/>
+			<link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png"/>
+			<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png"/>
+			<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png"/>
+			<link rel="manifest" href="/static/site.webmanifest"/>
+			<meta name="msapplication-TileColor" content="#da532c"/>
+			<meta name="theme-color" content="#ffffff"/>
+			<link rel="stylesheet" href="/static/style.css"/>
+		</head>
+		<body class="bg-orange-50 flex items-center justify-center">
+			<div class="w-2/3 md:w-1/2 lg:w-1/3">
+				<img src="/static/millemetri-logo.svg" alt="Millemetri - La rivista di Cercemaggiore"/>
+			</div>
+		</body>
+	</html>
 }
